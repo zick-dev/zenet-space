@@ -1,0 +1,289 @@
+body {
+    font: 15px/1.5 arial, helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    height: 70px;
+    width: 80px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+#consult {
+    min-height: 40px;
+    background: #f05907;
+    border-radius: 8px;
+}
+
+#consult>button {
+    min-height: 40px;
+    background: #FF9A00;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+
+#consult>button:hover {
+    background-color: #f05907;
+    font-weight: bolder;
+}
+
+/*header */
+#highlight {
+    color: #f05907;
+}
+
+header {
+    background: #f2e6db;
+    color: black;
+    padding-top: 10px;
+    min-height: 70px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+    float: right;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: "Dancing Script", cursive;
+    color: #1E0342;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight,
+header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #f05907;
+    font-weight: bold;
+}
+
+/*Body*/
+#intro {
+    background-image: url(logo/web\ bacground2.png);
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+}
+
+.intro_text h1 {
+    display: inline-flex;
+    padding-left: 200px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 50px;
+    color: #1E0342;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+}
+
+.intro_text h1:hover {
+    color: #f05907;
+    font-weight: bolder;
+}
+
+.intro_text p {
+    position: absolute;
+    margin-top: -50px;
+    padding-left: 200px;
+    padding-top: -50px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: #1E0342;
+}
+
+.intro_text p:hover {
+    color: #f05907;
+    font-weight: bolder;
+}
+
+.intro_text li {
+    display: inline-flex;
+    padding: 0 5px 0 5px;
+    margin: 20px;
+    margin-right: -200px;
+}
+
+#b1 {
+    background-color: #f05907;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 20px 200px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#b1:hover {
+    background-color: #FF9A00;
+    font-weight: bolder;
+}
+
+#b2 {
+    background-color: #FF9A00;
+    border: none;
+    color: #f2e6db;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#b2:hover {
+    background-color: #f05907;
+    font-weight: bolder;
+}
+
+/* end of intro*/
+/*Ads beginning*/
+#ads {
+    display: inline-flex;
+}
+
+#sect_1 {
+    margin-left: 200px;
+    display: inline-block;
+}
+
+#sect_1 h1 {
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#sect_2 {
+    margin-left: 300px;
+    display: inline-block;
+}
+
+#sect_2 h1 {
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#sect_2 a {
+    color: black;
+    font-size: 18px;
+}
+
+#info_1 {
+    /*display: inline-block;*/
+    margin-left: 200px;
+}
+
+#info_1 h1 {
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#ads_2 {
+    min-height: 400px;
+    display: inline-block;
+    margin: auto;
+    background-color: #efefee;
+    background-size: cover;
+
+}
+
+#of_1 {
+    text-align: center;
+    border-color: rgb(243, 234, 234);
+    border-style: ridge;
+    background-color: transparent;
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+
+#of_1:hover {
+    background-color: #FF9A00;
+    font-weight: bolder;
+}
+
+#of_2 {
+    text-align: center;
+    border-color: rgb(243, 234, 234);
+    border-style: ridge;
+    background: transparent;
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#of_2:hover {
+    background-color: #FF9A00;
+    font-weight: bolder;
+}
+
+#of_3 {
+    text-align: center;
+    border-color: rgb(243, 234, 234);
+    border-style: ridge;
+    background: transparent;
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+    margin-left: 400px;
+}
+
+#of_3:hover {
+    background-color: #FF9A00;
+    font-weight: bolder;
+}
